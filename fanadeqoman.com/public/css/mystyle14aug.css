@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+.body{  width: 80%; 
+margin:0 auto;font-family:Tahoma, Geneva, sans-serif !important}
+.wrapper{}
+.language{
+	float:right;
+	color:#00b0f0;
+	font-size:12px;
+	font-weight:bold; padding:4px;}
+.currency{
+	float:right;
+	color:#00b0f0;
+	font-size:12px;
+	font-weight:bold; padding:4px;
+	}
+	.topbar{ min-height:40px;}
+	.topmenu{ background-color:#001f60; height:35px;}
+	.contact{ color:#534f4f; font-size:23px; font-weight:bold; padding:0 5px;font-family: tahoma;}
+	.content{ color:#fff; font-weight:bold;font-family: tahoma;margin: 6px;font-size: 15px; float:left}
+	.register{ color: #fff;
+font-weight: bold;
+font-family: tahoma;
+float:right;
+font-size: 14px;
+margin: 6px;}
+.mr{ margin:0 5px; float:right;font-family: tahoma;
+font-size: 13px;}
+	.foheading{ color: #001f60;
+    font-family: tahoma;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 15px 10px;}
+	.foheading1{ color: #001f60;
+    font-family: tahoma;
+    font-size: 22px;
+    font-weight: bold;}
+	.mt5{ margin-top:5px;}
+	.mb20{ margin-bottom:20px;}
+	.mt10{ margin-top:10px;}
+	.mt20{ margin-top:20px;}
+	.mt30{ margin-top:30px;}
+	.pad8{ padding:8px !important}
+	.pad5{ padding:5px;}
+	.hotelrate{float:right; background-color:#fc7027; padding:5px;font-weight:bold;color:#fff;}
+	.durationinfo{float:right; padding:5px; color:#999;font-family: tahoma;}
+	.hotelhead{color:#fc7027; font-weight:bold;font-family: tahoma;}
+	.hoteladdr{ color:#999;font-family: tahoma;}
+	.dotborder{ border-bottom: 1px dashed lightblue;margin: 10px 15px 10px;}
+	.footer{ text-align:center;}
+	.footer a{ padding: 25px;position:relative; top:25px;font-size: 16px;font-weight: bold;color: #00b0f0;}
+	.copyrights{ text-align:center; color:#868686; font-size:12px; position:relative; top:60px; font-weight:bold}
+	.dest{color: #FFF;font-weight: bold;padding: 8px;text-align: left;font-size: 15px;font-family: tahoma;}
+	.checkin{color: #FFF;font-weight: bold;padding: 8px;text-align: left;font-size: 15px;font-family: tahoma;}
+	.advancedserach{ float: right; font-family:Tahoma, Geneva, sans-serif;
+color: #b5ebff;
+margin-top: 8px;}
+.destlabel{ float:right;}
+.destname{bottom: 0px;filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;background-color: #000000;text-align:center;left: 0px; width: 100%; height: 100%; height:45px; color:#fff; font-size:20px; font-family:tahoma; font-weight:bold;}
+
+
+.fobutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0));
+	background:-moz-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-webkit-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-o-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-ms-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0',GradientType=0);
+	background-color:#3d94f6;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:tahoma;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+.fobutton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6));
+	background:-moz-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-webkit-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-o-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-ms-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6',GradientType=0);
+	background-color:#1e62d0;
+	text-decoration:none;
+}
+.fobutton:active {
+	position:relative;
+	top:1px;
+}
+.mr a{ color:#fff; text-decoration:none}	
+	
+@media (min-width: 0px) and (max-width:360px) { 
+.slidepad{ padding-left:0px;}
+}
+@media (min-width: 0px) and (max-width:360px) { 
+.footer a{ top:15px; padding:13px;}
+}
+@media (min-width: 0px) and (max-width:360px) { 
+.copyrights{ top:40px;}
+}
+@media (min-width: 0px) and (max-width:320px) { 
+.topmenu{ height:85px; }
+}
+@media (min-width: 321px) and (max-width:360px) { 
+.topmenu{ height:65px; }
+}
+@media (min-width: 0px) and (max-width:980px) { 
+.destlabel{ float:left; margin-left:15px; }
+}
+
+.btborder{border-top:1px dashed lightgray}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/** slider css**/
+	      /* jssor slider thumbnail navigator skin 02 css */
+                /*
+                .jssort02 .p            (normal)
+                .jssort02 .p:hover      (normal mouseover)
+                .jssort02 .pav          (active)
+                .jssort02 .pav:hover    (active mouseover)
+                .jssort02 .pdn          (mousedown)
+                */
+                .jssort02 .w
+                {
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    width: 100%;
+                    height: 100%;
+                }
+                .jssort02 .c
+                {
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    width: 120px;
+                    height: 80px;
+                    border: #000 2px solid;
+                }
+                .jssort02 .p:hover .c, .jssort02 .pav:hover .c, .jssort02 .pav .c 
+                {
+                	background: url(../img/t01.png) center center;
+                	border-width: 0px;
+                    top: 0px;
+                    left: 0px;
+                    width: 120px;
+                    height: 80px;
+                }
+                .jssort02 .p:hover .c, .jssort02 .pav:hover .c
+                {
+                    top: 0px;
+                    left: 0px;
+                    width: 120px;
+                    height: 80px;
+                    border: #fff 1px solid;
+                }
+				
+				
+				  /* jssor slider arrow navigator skin 05 css */
+            /*
+            .jssora05l              (normal)
+            .jssora05r              (normal)
+            .jssora05l:hover        (normal mouseover)
+            .jssora05r:hover        (normal mouseover)
+            .jssora05ldn            (mousedown)
+            .jssora05rdn            (mousedown)
+            */
+            .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn
+            {
+            	position: absolute;
+            	cursor: pointer;
+            	display: block;
+                background: url(../img/a16.png) no-repeat;
+                overflow:hidden;
+            }
+            .jssora05l { background-position: -10px -40px; }
+            .jssora05r { background-position: -70px -40px; }
+            .jssora05l:hover { background-position: -130px -40px; }
+            .jssora05r:hover { background-position: -190px -40px; }
+            .jssora05ldn { background-position: -250px -40px; }
+            .jssora05rdn { background-position: -310px -40px; }
+			
+			
+			 /* jssor slider arrow navigator skin 12 css */
+            /*
+            .jssora12l              (normal)
+            .jssora12r              (normal)
+            .jssora12l:hover        (normal mouseover)
+            .jssora12r:hover        (normal mouseover)
+            .jssora12ldn            (mousedown)
+            .jssora12rdn            (mousedown)
+            */
+            .jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn {
+                position: absolute;
+                cursor: pointer;
+                display: block;
+                background: url(../img/a02.png) no-repeat;
+                overflow: hidden;
+            }
+
+            .jssora12l {
+                background-position: -256px -37px;
+            }
+
+            .jssora12r {
+                background-position: -315px -37px;
+            }
+
+            .jssora12l:hover {
+                background-position: -136px -37px;
+            }
+
+            .jssora12r:hover {
+                background-position: -195px -37px;
+            }
+
+            .jssora12ldn {
+                background-position: -256px -37px;
+            }
+
+            .jssora12rdn {
+                background-position: -315px -37px;
+            }
+			
+			        /* jssor slider bullet navigator skin 05 css */
+            /*
+            .jssorb05 div           (normal)
+            .jssorb05 div:hover     (normal mouseover)
+            .jssorb05 .av           (active)
+            .jssorb05 .av:hover     (active mouseover)
+            .jssorb05 .dn           (mousedown)
+            */
+            .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+                background: url(../img/b05.png) no-repeat;
+                overflow: hidden;
+                cursor: pointer;
+            }
+
+            .jssorb05 div {
+                background-position: -7px -7px;
+            }
+
+                .jssorb05 div:hover, .jssorb05 .av:hover {
+                    background-position: -37px -7px;
+                }
+
+            .jssorb05 .av {
+                background-position: -67px -7px;
+            }
+
+            .jssorb05 .dn, .jssorb05 .dn:hover {
+                background-position: -97px -7px;
+            }
